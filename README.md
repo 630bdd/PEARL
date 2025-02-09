@@ -8,6 +8,8 @@ Large Language Models (LLMs) suffer from **paraphrase divergence** - semanticall
 ✅ Black-box approach requiring no model retraining  
 ✅ Validated across 6 datasets covering QA, commonsense reasoning, and math problems
 
+![示例图片](./introduction.png)
+
 For more details, please refer to our paper:
 [Junbo Fu, Guoshuai Zhao*, Yimin Deng, Yunqi Mi, Xueming Qian](https://aclanthology.org/2024.findings-emnlp.134/)
 
@@ -24,8 +26,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download Required Data and Models
-- **Data**: Download PEARL generator training data, test data, and auxiliary data for baselines from: `[Insert Data URL]`
-- **Model**: Download the pre-trained model from: `[Insert Model URL]`
+- **Data**: Download PEARL generator training data, test data, and auxiliary data for baselines from: `https://drive.google.com/drive/folders/188BDhfSrcR8SPTgMiDKLh0HY3UcSUsKk?usp=drive_link`
+- **Model**: Download the pre-trained model from: `https://huggingface.co/mosaicml/mpt-7b-instruct`
 
 ---
 
@@ -36,7 +38,7 @@ To train the PEARL generator, run:
 ```bash
 bash train.sh
 ```
-Alternatively, you can use our pre-trained model available at: `[Insert Pre-trained Model URL]`
+Alternatively, you can use our pre-trained model available at: `https://drive.google.com/drive/folders/188BDhfSrcR8SPTgMiDKLh0HY3UcSUsKk?usp=drive_link`
 
 ### 2. Generate Paraphrases
 To generate paraphrases using PEARL generator, run:
